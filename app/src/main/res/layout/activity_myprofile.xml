@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Select Picture"
+        android:id="@+id/button_myPicture"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"/>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView_myPicture"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/activity_20dp"
+        app:riv_corner_radius="50dip"
+        app:riv_border_width="2dip"
+        app:riv_mutate_background="true"
+        app:riv_oval="true"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="First Name         :"
+        android:id="@+id/textView_firstName" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_firstname"
+        android:layout_gravity="center_horizontal" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Last Name         :"
+            android:id="@+id/textView_lastName" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_lastname"
+        android:layout_gravity="center_horizontal" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Email                   :"
+            android:id="@+id/textView_email" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editText_email"
+        android:layout_gravity="center_horizontal" /></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Mobile Number :"
+            android:id="@+id/textView_mobileNumber" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editText_mobileNumber"
+        android:layout_gravity="center_horizontal" /></LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:id="@+id/button_update"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"/>
+</LinearLayout>

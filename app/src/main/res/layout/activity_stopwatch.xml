@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <TextView
+        android:text="00:00:00"
+        android:id="@+id/timer"
+        android:textSize="60sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="130dp"
+        >
+    </TextView>
+
+   <!-- <TextView
+        android:text=".0"
+        android:id="@+id/timerMs"
+        android:textSize="30sp"
+        android:paddingTop="30sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </TextView>-->
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/button_start"
+        android:onClick="startClick"
+        android:layout_marginLeft="@dimen/activity_100dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/grey"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/button_stop"
+        android:layout_gravity="center_horizontal"
+        android:onClick="stopClick"
+        android:layout_marginLeft="@dimen/activity_20dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/grey"
+        />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:id="@+id/button_pause"
+            android:onClick="pauseClick"
+            android:layout_marginLeft="@dimen/activity_100dp"
+            android:layout_marginTop="@dimen/activity_20dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/grey"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:id="@+id/button_reset"
+            android:background="@color/colorPrimary"
+            android:onClick="resetClick"
+            android:layout_marginLeft="@dimen/activity_20dp"
+            android:layout_marginTop="@dimen/activity_20dp"
+            android:textColor="@color/grey"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/stopTime"
+        android:textSize="20sp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+    </TextView>
+</LinearLayout>

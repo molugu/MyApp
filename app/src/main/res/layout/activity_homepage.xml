@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:orientation="horizontal">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Welcome "
+
+        android:id="@+id/textView_welcome"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textView_username"
+        android:layout_gravity="center"
+        android:textSize="25dp"/>
+</LinearLayout>
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Button Test"
+        android:id="@+id/button_test"
+        android:onClick="buttonTest"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="My Profile"
+        android:id="@+id/button_myProfile"
+        android:onClick="buttonMyProfile"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+   <!-- <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Move file"
+        android:id="@+id/button_moveFile"
+        android:onClick="buttonMoveFile"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />-->
+
+   <!-- <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="DND"
+        android:id="@+id/button_dnd"
+        android:onClick="buttonDnd"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />-->
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Fetch Contact"
+        android:id="@+id/button_fetch_contact"
+        android:onClick="buttonFetchContact"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Send SMS"
+        android:id="@+id/button_sendSMS"
+        android:onClick="buttonSendSMS"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Set Alarm"
+        android:id="@+id/button_setAlarm"
+        android:onClick="buttonSetAlarm"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="Stop Watch"
+        android:id="@+id/button_stopWatch"
+        android:onClick="button_stopWatch"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+
+        />
+
+    <ToggleButton
+        android:layout_gravity="center"
+        android:id="@+id/onOffFlashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Turn Off"
+        android:textOff="Turn On"
+        android:checked="false"
+        android:text="Turn On/Off Camera LED/ Flashlight Android"
+        android:onClick="onToggleClicked"/>
+
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="View's"
+        android:id="@+id/button_view"
+        android:onClick="button_view"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:id="@+id/button_listView"
+        android:onClick="button_listView"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/lightgrey"
+        />
+
+</LinearLayout>
+    </ScrollView>

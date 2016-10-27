@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Incresol</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_myAccount">My Account</string>
+    <string name="welcome">Welcome</string>
+    <string name="agreement">I agree to Incresol</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="privacy"> <a href="#">Privacy Policy</a> and</string> <string  name="terms"> <a href="#">T &amp; C</a></string>
+    <string name="facebook_app_id">1571711343128203</string>
+</resources>

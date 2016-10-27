@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233909759552",
+    "project_id": "myapp-2cffb"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233909759552:android:306a0a7e5232322b",
+        "android_client_info": {
+          "package_name": "com.example.incresol_078.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233909759552-lmmrrg6no8284j2o0tsfifpui1d6subc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.incresol_078.myapp",
+            "certificate_hash": "EBFDFA472C2A2D9B71426BDC5D2611C42C7C7321"
+          }
+        },
+        {
+          "client_id": "233909759552-edamabinc8lg4082ij05r03k4ik2h4fa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL8vSPIjST_CnTcEb4N-CnmcY7Xsf6pY8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

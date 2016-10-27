@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buttonTest"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Button Test" />
+        <item
+            android:id="@+id/nav_myProfile"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_moveFile"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Move File" />
+        <item
+            android:id="@+id/nav_fetchContact"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Fetch Contact" />
+        <item
+            android:id="@+id/nav_sendSms"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Send SMS" />
+        <item
+            android:id="@+id/nav_setAlarm"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Set Alarm" />
+        <item
+            android:id="@+id/nav_stopWatch"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Stop Watch" />
+
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
